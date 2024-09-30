@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Ajoutez ici les éléments d'interface utilisateur que vous souhaitez, tels que des champs de texte, des boutons, etc. -->
+
+
+
+    <TextView
+        android:id="@+id/tvWelcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TALENT" />
+
+    <Button
+        android:id="@+id/btnDeconnexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Déconnexion" />
+
+    <Button
+        android:id="@+id/btnModifierCompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modifier Compte" />
+
+    <Button
+        android:id="@+id/btnSupprimerCompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supprimer Compte" />
+
+    <!-- Ajoutez ici les éléments d'interface utilisateur pour la modification de profil, tels que des champs de texte pour le nom, l'adresse e-mail, etc. -->
+
+    <EditText
+        android:id="@+id/etNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adresse e-mail" />
+
+    <Button
+        android:id="@+id/btnEnregistrerModifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer Modifications" />
+
+</LinearLayout>
